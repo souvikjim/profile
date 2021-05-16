@@ -1,0 +1,50 @@
+/* #xx{
+    display: ruby;
+    justify-content: center;
+    position: sticky;
+    font-size: 35px;
+    background-color: darkseagreen;
+} */
+#xx{
+    background: rgb(224, 248, 248);
+}
+body{
+    background-image: url('j1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    text-align: center;
+    font-size: 30px;
+}
+#lorem{
+    color: rgb(146, 145, 77);
+    /* display: inline-flex; */
+    /* position: absolute; */
+    top: 10px;
+    right: 5cm;
+    /* background:linear-gradient(to top,blue ); */
+    transform: translate(0,0px);
+    transition: 5s; 
+}
+#lorem a:hover{
+    transform: rotate(0deg) skew(0deg) translate(0,-10px);
+    /* background-color: rgb(55, 83, 82); */
+}
+#resu{
+    font-size: 100px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    color: rgba(221, 59, 208, 0.822);
+}
+#cc{
+    /* width:50%;
+    height: 40%;  */
+    position: relative;
+    /* border: 2px solid red;
+    max-width: 5cm;*/
+
+}
+/* #ff{
+    margin-top:-3cm;
+    width: 450px;
+    height:100%
+} */

@@ -1,0 +1,67 @@
+body{
+    background-image: url('j1.jpg');
+    /* background-color: rgba(255, 255, 255, 0.925); */
+    background-repeat: no-repeat;
+    background-size:1920px 1080px;
+    /* border: 10px solid blue; */
+    /* background-attachment: fixed; */
+}
+
+    
+
+
+#ll{
+    margin-top: 3cm;
+    margin-left: 2.5cm;
+    /* display: flex; */
+    /* border:2px solid rgb(154, 206, 50); */
+}
+/* #hh{
+    display: flex ;
+} */
+#lorem{
+    color: rgb(146, 145, 77);
+    display: inline-flex;
+    position: absolute;
+    top: 5px;
+    right: 5cm;
+    /* background:linear-gradient(to top,blue ); */
+    transform: translate(0,0px);
+    transition: 5s; 
+}
+#lorem a:hover{
+    transform: rotate(0deg) skew(0deg) translate(0,-10px);
+    /* background-color: rgb(55, 83, 82); */
+}
+#myimage{
+    height:10%;
+    width: 350px;
+    /* padding:5px ; */
+    margin:2cm;
+    margin-left: 3.5cm;
+    /* margin-top: 5cm; */
+    border-radius: 100%;
+    box-shadow: 7px 12px 15px 6px rgb(32, 14, 14),-7px 12px 15px 6px rgb(10, 9, 9);
+    box-shadow: inset;
+    
+}
+#me{
+    color: rgba(113, 240, 9, 0.623);
+    float:right;
+    padding-top: 2.5cm;
+    padding-right: 10cm;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bar{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    /* margin-left: 10cm; */
+    font-size: 35px;
+    /* text-decoration: none; */
+    /* align-items: center; */
+    /* margin: 20px 0px; */
+    top: 3cm;
+    
+}

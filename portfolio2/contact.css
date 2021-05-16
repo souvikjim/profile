@@ -1,0 +1,30 @@
+#xx{
+    background: rgb(224, 248, 248);
+}
+body{
+    background-image: url('j1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    text-align: center;
+    font-size: 30px;
+}
+#lorem{
+    color: rgb(146, 145, 77);
+    /* display: inline-flex; */
+    /* position: absolute; */
+    top: 10px;
+    right: 5cm;
+    /* background:linear-gradient(to top,blue ); */
+    transform: translate(0,0px);
+    transition: 5s; 
+}
+#lorem a:hover{
+    transform: rotate(0deg) skew(0deg) translate(0,-10px);
+    /* background-color: rgb(55, 83, 82); */
+}
+#contact{
+    font-size: 100px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    color: rgb(4, 255, 100);
+}
